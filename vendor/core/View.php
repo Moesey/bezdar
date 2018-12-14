@@ -9,6 +9,6 @@ class View {
 
 
     public function render(){
-	include_once 'vender/views/templates/'.$this->template.'.php';
+	include_once 'vendor/views/templates/'.$this->template.'.php';
     }
 }
